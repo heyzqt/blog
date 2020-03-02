@@ -22,3 +22,5 @@
 ## 4.使用$attrs获取不到父组件向子组件传的值
 + 可以通过`this.$root.customValue`获取到
 + 可以通过`props`传递获取
+
+## 5.width:100%; 可能会导致margin-right、padding-left、padding-right无效，margin-left有效，元素右侧撑满的情况，去掉width: 100%;即可,
